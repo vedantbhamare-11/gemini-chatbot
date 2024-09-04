@@ -1,0 +1,8 @@
+.chat-message p {
+  padding: 5px;
+  margin: 0;
+}
+
+.send-btn {
+  height: 55px;
+}

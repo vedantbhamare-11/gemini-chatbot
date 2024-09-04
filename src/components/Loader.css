@@ -1,0 +1,19 @@
+/* Loader.css */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1200; /* Ensure it's above other content */
+  pointer-events: none; /* Allows clicks to pass through the loader */
+}
+
+.loader svg {
+  width: 24px;
+  height: 30px;
+}

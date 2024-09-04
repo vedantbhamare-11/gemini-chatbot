@@ -1,0 +1,275 @@
+/* Global Styles */
+body {
+  background-color: #fff; /* White background */
+  color: #000; /* Black text color for readability */
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  justify-content: center;
+  margin-bottom: 64px;
+}
+
+.container {
+  padding: 20px;
+  margin-top: 64px; /* Offset for the navbar height */
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  box-shadow: none;
+  border-bottom: 2px solid #000; /* Black border at the bottom */
+}
+
+.navbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 8px; /* Rounded corners */
+  color: #fff; /* White text */
+}
+
+.navbar-history-text {
+  margin-left: 8px; /* Space between icon and text */
+  font-size: 1rem;
+}
+
+/* Button Styles */
+.MuiButton-containedPrimary {
+  background-color: #000; /* Black button */
+  color: #fff; /* White text */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.MuiButton-containedSecondary {
+  background-color: #333; /* Dark gray button */
+  color: #fff; /* White text */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Task Card Styles */
+.task-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 4px; /* Reduced border radius */
+  padding: 16px; /* Padding for a sleek look */
+  background-color: #e0e0e0; /* Light grey background color for the card */
+  margin-bottom: 16px; /* Space between cards */
+}
+
+.user-name {
+  margin-bottom: 8px;
+  font-weight: 700; /* Bolder user name */
+  font-size: 1rem;
+  color: #000; /* Dark text color for the user name */
+}
+
+.description-input .MuiOutlinedInput-root {
+  background-color: #fff; /* White background for input */
+  border-radius: 4px; /* Smooth corners for input */
+}
+
+.description-input .MuiOutlinedInput-root fieldset {
+  border-color: #ddd; /* Very light border color */
+}
+
+.description-input .MuiOutlinedInput-root:hover fieldset {
+  border-color: #ccc; /* Slightly darker on hover */
+}
+
+.description-input .MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: #bbb; /* Slightly darker when focused */
+}
+
+.input-label {
+  color: #555; /* Lighter color for label */
+}
+
+.stack-container {
+  margin-top: 8px; /* Space above the stack */
+}
+
+.timer-text {
+  color: #555;
+  font-size: 0.875rem;
+  font-weight: 700; /* Bolder font weight for timer */
+}
+
+.start-button {
+  background-color: #000; /* Black background for start button */
+  color: #fff; /* White text color */
+  border-radius: 2px; /* Reduced border radius */
+  text-transform: none; /* No uppercase */
+  padding: 6px 12px; /* Consistent padding */
+}
+
+.start-button:hover {
+  background-color: #333; /* Darker on hover */
+}
+
+.complete-button {
+  background-color: #555; /* Gray background for complete button */
+  color: #fff; /* White text color */
+  border-radius: 2px; /* Reduced border radius */
+  text-transform: none; /* No uppercase */
+  padding: 6px 12px; /* Consistent padding */
+}
+
+.complete-button:hover {
+  background-color: #777; /* Lighter on hover */
+}
+
+/* Card Styles */
+.MuiCard-root {
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  background-color: #fff; /* White background */
+  color: #000; /* Black text */
+  margin: 10px; /* Margin between cards */
+}
+
+/* Text Field Styles */
+.MuiTextField-root .MuiOutlinedInput-root {
+  background-color: #f9f9f9; /* Light gray input background */
+  color: #000; /* Black text color */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.MuiTextField-root .MuiOutlinedInput-root .MuiInputBase-input {
+  color: #000; /* Black input text color */
+}
+
+.MuiTextField-root .MuiOutlinedInput-notchedOutline {
+  border-color: #000; /* Black border color */
+}
+
+.MuiTextField-root .MuiInputLabel-outlined {
+  color: #333; /* Dark gray label color */
+}
+
+/* Typography Styles */
+.MuiTypography-h6 {
+  color: #000; /* Black timer text color */
+}
+
+/* Dialog Styles */
+.MuiDialog-paper {
+  border-radius: 12px; /* Rounded corners */
+  background-color: #fff; /* White background */
+  color: #000; /* Black text */
+  border: 2px solid #000; /* Black border */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Soft shadow */
+}
+
+/* Tab Styles */
+.MuiTabs-indicator {
+  background-color: #000; /* Black tab indicator color */
+}
+
+.MuiTab-root {
+  color: #777; /* Medium gray tab text color */
+  font-weight: bold; /* Bold font weight for tabs */
+}
+
+.MuiTab-root.Mui-selected {
+  background-color: #000; /* Black background for the selected tab */
+  color: #fff; /* White text for the selected tab */
+}
+
+/* Table Styles */
+.table-container {
+  margin-top: 16px;
+  background-color: #fff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensure no overflow */
+}
+
+.MuiTable-root {
+  width: 100%;
+  border-collapse: collapse; /* No gaps between table cells */
+}
+
+.MuiTableHead-root {
+  background-color: #f5f5f5; /* Light grey background for table header */
+}
+
+.MuiTableCell-head {
+  font-weight: bold; /* Bold font weight for table headers */
+  font-size: 1rem;
+  color: #000;
+  padding: 12px; /* Add padding for headers */
+}
+
+.MuiTableCell-body {
+  color: #333; /* Dark gray text */
+  padding: 12px; /* Add padding for body cells */
+  border-bottom: 1px solid #eee; /* Light gray border for rows */
+}
+
+/* Close Button Styles */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #000; /* Black color */
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.close-button:hover {
+  color: #333; /* Dark gray on hover */
+}
+
+.close-icon {
+  color: #000; /* Black color */
+}
+
+.close-icon:hover {
+  color: #333; /* Dark gray on hover */
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f9f9f9; /* Light gray track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333; /* Dark gray thumb */
+  border-radius: 8px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Slightly lighter gray on hover */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
