@@ -92,6 +92,7 @@ const Chatbot = () => {
           }}
         >
           <Box
+            className="chatbox"
             sx={{
               overflowY: "auto",
               height: "calc(100% - 60px)",

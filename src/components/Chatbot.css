@@ -6,3 +6,33 @@
 .send-btn {
   height: 55px;
 }
+
+.chatbox {
+  overflow: auto;
+}
+
+.chatbox::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.chatbox {
+  scrollbar-width: none;
+}
+
+.chatbox::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.chatbox:hover::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chatbox:hover::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.chatbox:hover::-webkit-scrollbar-track {
+  background: transparent;
+}
